@@ -1,0 +1,98 @@
+@import "./variable.scss";
+
+.works {
+  .posts {
+    p {
+      transition: all 0.3s ease-in-out;
+    }
+    //* first row *//
+    &:nth-child(-n + 3) {
+      position: relative;
+      transition: all 0.3s ease-in-out;
+      &:hover p {
+        transform: translateY(-700%);
+        color: $white;
+        font-size: 48px;
+        border-bottom: 3px solid $white;
+      }
+      &:hover {
+        transform: scale(1.05);
+      }
+      &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 528px;
+        top: 0;
+        left: 0;
+        background-color: $fadeCover;
+        opacity: 1;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover::before {
+        opacity: 0;
+      }
+    }
+
+    //* second row *//
+    &:not(:nth-child(-n + 3)):not(:nth-child(n + 6)) {
+      position: relative;
+      transition: all 0.3s ease-in-out;
+      &:hover p {
+        transform: translateY(-500%);
+        color: $white;
+        font-size: 48px;
+        border-bottom: 3px solid $white;
+      }
+      &:hover {
+        transform: scale(1.05);
+      }
+      &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 424px;
+        top: 0;
+        left: 0;
+        background-color: $fadeCover;
+        opacity: 1;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover::before {
+        opacity: 0;
+      }
+    }
+
+    //* third row *//
+    &:nth-child(n + 6) {
+      position: relative;
+      transition: all 0.3s ease-in-out;
+      &:hover p {
+        transform: translateY(-400%);
+        color: $white;
+        font-size: 48px;
+        border-bottom: 3px solid $white;
+      }
+      &:hover {
+        transform: scale(1.05);
+      }
+      &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 280px;
+        top: 0;
+        left: 0;
+        background-color: $fadeCover;
+        opacity: 1;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover::before {
+        opacity: 0;
+      }
+    }
+  }
+}

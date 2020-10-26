@@ -1,0 +1,143 @@
+@import "./css_reset.scss";
+@import "./variable.scss";
+@import "./banner.scss";
+@import "./about.scss";
+@import "./brand.scss";
+@import "./works.scss";
+@import "./footer.scss";
+
+h1 {
+  font-size: 80px;
+  font-style: italic;
+  line-height: 94px;
+}
+
+h2 {
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 75px;
+}
+
+p,
+li {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 42px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 64px;
+}
+
+.gallery {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.border {
+  border: 1px solid $secondary;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-direction {
+  &-column {
+    flex-direction: column;
+  }
+}
+
+.justify-content {
+  &-center {
+    justify-content: center;
+  }
+}
+
+.align-self {
+  &-center {
+    align-self: center;
+  }
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.bg {
+  &-dark {
+    background-color: $black;
+    color: $white;
+  }
+}
+
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-sm {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  &-medium {
+    font-weight: 500;
+  }
+  &-bold {
+    font-weight: 700;
+  }
+  &-black {
+    font-weight: 900;
+  }
+}
+
+.lh {
+  &-1 {
+    line-height: 36px;
+  }
+  &-2 {
+    line-height: 42px;
+  }
+}
+
+.m {
+  &t {
+    &-1 {
+      margin-top: 32px;
+    }
+  }
+  &b {
+    &-1 {
+      margin-bottom: 16px;
+    }
+    &-2 {
+      margin-bottom: 24px;
+    }
+    &-3 {
+      margin-bottom: 32px;
+    }
+    &-4 {
+      margin-bottom: 40px;
+    }
+    &-5 {
+      margin-bottom: 56px;
+    }
+    &-6 {
+      margin-bottom: 68px;
+    }
+  }
+  &l {
+    &-1 {
+      margin-left: 24px;
+    }
+  }
+}

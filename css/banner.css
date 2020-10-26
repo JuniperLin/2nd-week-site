@@ -1,0 +1,30 @@
+.banner {
+  background: url(/img/banner.png) center center no-repeat;
+  width: 100%;
+  height: 958px;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.banner .container {
+  padding: 356px 0 268px;
+}
+
+.banner .socialMedia {
+  margin-top: 48px;
+}
+
+.banner .socialMedia li {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.banner .socialMedia li:nth-child(n + 2) {
+  margin-left: 16px;
+}
+
+.banner .socialMedia li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=banner.css.map */

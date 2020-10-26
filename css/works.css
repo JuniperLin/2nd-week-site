@@ -1,0 +1,116 @@
+.works .posts p {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:nth-child(-n + 3) {
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:nth-child(-n + 3):hover p {
+  -webkit-transform: translateY(-700%);
+          transform: translateY(-700%);
+  color: #ffffff;
+  font-size: 48px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.works .posts:nth-child(-n + 3):hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.works .posts:nth-child(-n + 3)::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 528px;
+  top: 0;
+  left: 0;
+  background-color: #000000b0;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:nth-child(-n + 3):hover::before {
+  opacity: 0;
+}
+
+.works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)) {
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)):hover p {
+  -webkit-transform: translateY(-500%);
+          transform: translateY(-500%);
+  color: #ffffff;
+  font-size: 48px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)):hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6))::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 424px;
+  top: 0;
+  left: 0;
+  background-color: #000000b0;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)):hover::before {
+  opacity: 0;
+}
+
+.works .posts:nth-child(n + 6) {
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:nth-child(n + 6):hover p {
+  -webkit-transform: translateY(-400%);
+          transform: translateY(-400%);
+  color: #ffffff;
+  font-size: 48px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.works .posts:nth-child(n + 6):hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.works .posts:nth-child(n + 6)::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 280px;
+  top: 0;
+  left: 0;
+  background-color: #000000b0;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.works .posts:nth-child(n + 6):hover::before {
+  opacity: 0;
+}
+/*# sourceMappingURL=works.css.map */

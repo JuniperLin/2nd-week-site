@@ -1,0 +1,41 @@
+footer {
+  padding-bottom: 80px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  position: relative;
+}
+
+footer ul li a::before {
+  content: "";
+  width: 0;
+  height: 5px;
+  background: #ffffff;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+footer ul li a::after {
+  content: "";
+  width: 0;
+  height: 5px;
+  background: #ffffff;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+footer ul li a:hover::before {
+  width: 50%;
+}
+
+footer ul li a:hover::after {
+  width: 50%;
+}
+/*# sourceMappingURL=footer.css.map */

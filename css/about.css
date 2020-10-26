@@ -1,0 +1,43 @@
+.about {
+  padding-bottom: 56px;
+}
+
+.about img {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.about li:nth-child(3) {
+  position: relative;
+  margin-bottom: 68px;
+}
+
+.about li:nth-child(3)::after {
+  content: "";
+  width: 384px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.about li:nth-child(n + 4) {
+  position: relative;
+}
+
+.about li:nth-child(n + 4)::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-left: -38px;
+}
+/*# sourceMappingURL=about.css.map */
