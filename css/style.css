@@ -329,6 +329,7 @@ table {
 
 footer {
   padding-bottom: 80px;
+  width: 1920px;
 }
 
 footer ul li a {
@@ -366,6 +367,10 @@ footer ul li a:hover::before {
 
 footer ul li a:hover::after {
   width: 50%;
+}
+
+.wrap {
+  width: 1920px;
 }
 
 h1 {
