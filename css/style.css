@@ -229,6 +229,7 @@ table {
   color: #ffffff;
   font-size: 48px;
   border-bottom: 3px solid #ffffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .works .posts:nth-child(-n + 3):hover {
@@ -266,6 +267,7 @@ table {
   color: #ffffff;
   font-size: 48px;
   border-bottom: 3px solid #ffffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)):hover {
@@ -303,6 +305,7 @@ table {
   color: #ffffff;
   font-size: 48px;
   border-bottom: 3px solid #ffffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .works .posts:nth-child(n + 6):hover {
