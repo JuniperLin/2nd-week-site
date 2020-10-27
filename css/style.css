@@ -192,6 +192,7 @@ table {
 
 .about li:nth-child(n + 4) {
   position: relative;
+  padding-left: 16px;
 }
 
 .about li:nth-child(n + 4)::before {
