@@ -14,8 +14,7 @@
           transform: translateY(-700%);
   color: #ffffff;
   font-size: 48px;
-  border-bottom: 3px solid #ffffff;
-  text-shadow: 0.1em 0.1em 0.2em black;
+  text-shadow: 0.1em 0.1em 0.2em #000000;
 }
 
 .works .posts:nth-child(-n + 3):hover {
@@ -48,12 +47,11 @@
 }
 
 .works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)):hover p {
-  -webkit-transform: translateY(-500%);
-          transform: translateY(-500%);
+  -webkit-transform: translateY(-550%);
+          transform: translateY(-550%);
   color: #ffffff;
   font-size: 48px;
-  border-bottom: 3px solid #ffffff;
-  text-shadow: 0.1em 0.1em 0.2em black;
+  text-shadow: 0.1em 0.1em 0.2em #000000;
 }
 
 .works .posts:not(:nth-child(-n + 3)):not(:nth-child(n + 6)):hover {
@@ -90,8 +88,7 @@
           transform: translateY(-400%);
   color: #ffffff;
   font-size: 48px;
-  border-bottom: 3px solid #ffffff;
-  text-shadow: 0.1em 0.1em 0.2em black;
+  text-shadow: 0.1em 0.1em 0.2em #000000;
 }
 
 .works .posts:nth-child(n + 6):hover {
